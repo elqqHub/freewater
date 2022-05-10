@@ -1,0 +1,76 @@
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/8B/kuvat/waterhero.jpg");
+
+  height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.keskiteksti {
+    text-align: center;
+
+}
+
+.container {
+    text-align: center;
+}
+
+.aboutteksti {
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .neonText {
+    font-size: 350%;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(160, 161, 161),
+        0 0 82px rgb(118, 119, 119),
+        0 0 92px rgb(196, 197, 197),
+        0 0 102px rgb(161, 170, 167),
+        0 0 151px rgb(151, 179, 169);
+    text-align: center;
+  }
+
+  .strokeme
+{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
